@@ -10,11 +10,11 @@ G = DNA dizilimimizin uzunluğu
 L = Fragmanların uzunluğu 
 N = Fragmanların sayısı
 
-Kodun görevi, konsoldan girilen DNA dizilimini veya istenen uzunluğa rastgele göre üretilen DNA dizilimini, istenen uzunlukta ve sayıda fragmanlar ile ve bu fragmanların tümleyenleryle tekrardan sekanslamak. Bu sekanslamayı aşağıdaki algoritmayı baz alarak yapıyor. 
+Kodun görevi, konsoldan girilen DNA dizilimini veya istenen uzunluğa göre rastgele üretilen DNA dizilimini, istenen uzunlukta ve sayıda fragmanlar ile ve bu fragmanların tümleyenleryle tekrardan sekanslamak. Bu sekanslamayı aşağıdaki algoritmayı baz alarak yapıyor. 
 
 <img width="550" alt="Algoritma" src="https://user-images.githubusercontent.com/70757964/233127269-9ca10e8e-4656-4212-945e-5c5d43ab3d1f.png">
 
-Her metotun ayrı ayrı ne yaptığını proje.pdf isimli ödev dosyasından inceleyebilirsiniz.
+Her metotun ayrı ayrı ne yaptığını proje.pdf isimli ödev dosyasında mevcuttur.
 
 DNA dizilimini ilk indisinden son indisine kadar G-L kez eşleştiriyor. Yine konsoldan alınan girdiler ile eşleşme için + skor eşleşmeme için - skor olacak şekilde o fragman için G-L tane skor oluşturuyor ve bunlardan maksimum skoru asıl skor olarak kabul ediyor. N tane fragman N*N boyutundaki yerel hizalama matrisine kaydediyor. Bu oluşturulan matrisi bir txt dosyasına yazdırıyor. Örnek konsol ve txt dosyası aşağıda görüldüğü gibidir.
 
